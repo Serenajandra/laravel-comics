@@ -1,1 +1,5 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+@import 'general';
+@import 'partials/header';
+@import 'partials/banner';
+@import 'partials/comicCards.scss';

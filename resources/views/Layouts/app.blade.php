@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    @include('Layouts.partials.header')
-    @yield('content')
+    @yield('home-content')
+
 </body>
 
 </html>

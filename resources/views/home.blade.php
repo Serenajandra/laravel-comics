@@ -1,4 +1,8 @@
 @extends('Layouts.app')
-@section('content')
-    <h1>ciao</h1>
+
+@section('home-content')
+    @include('Layouts.partials.header')
+    @include('Layouts.partials.banner')
+    @include('Layouts.partials.comicCards')
+    @include('Layouts.partials.bluenav')
 @endsection

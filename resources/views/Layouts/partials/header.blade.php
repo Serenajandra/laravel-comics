@@ -9,9 +9,7 @@
                 <li>{{ $link }}</li>
             @endforeach
 
-            {{-- <li v-for="(link, index) in links" :key="index">
-                <a :class="{ active: link.active }" :href="link.href">{{ link . title . toUpperCase() }}</a>
-            </li> --}}
         </ul>
     </nav>
+
 </header>
